@@ -1,0 +1,50 @@
+﻿Build started 2/17/2014 2:13:38 AM.
+     1>Project "C:\Users\RezaulAkram\Documents\Projects\cs599\Exercise2\project\ann.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "C:\Users\RezaulAkram\Documents\Projects\cs599\Exercise2\Exercise2\Exercise2\lib\Release\".
+       InitializeBuildStatus:
+         Creating "ann.dir\Release\ann.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Building Custom Rule C:/Users/RezaulAkram/Documents/Projects/cs599/Exercise2/Exercise2/Exercise2/CMakeLists.txt
+         CMake does not need to re-run because C:\Users\RezaulAkram\Documents\Projects\cs599\Exercise2\project\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\freeglut-2.8.1\freeglut-2.8.1\include" /I"C:\OpenMesh-2.4.1\src" /IC:\Users\RezaulAkram\Documents\Projects\cs599\Exercise2\Exercise2\Exercise2 /nologo /W3 /WX- /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _USE_MATH_DEFINES /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"ann.dir\Release\\" /Fd"ann.dir\Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\Exercise2\Exercise2\ANN\ANN.cpp ..\Exercise2\Exercise2\ANN\bd_fix_rad_search.cpp ..\Exercise2\Exercise2\ANN\bd_pr_search.cpp ..\Exercise2\Exercise2\ANN\bd_search.cpp ..\Exercise2\Exercise2\ANN\bd_tree.cpp ..\Exercise2\Exercise2\ANN\brute.cpp ..\Exercise2\Exercise2\ANN\kd_dump.cpp ..\Exercise2\Exercise2\ANN\kd_fix_rad_search.cpp ..\Exercise2\Exercise2\ANN\kd_pr_search.cpp ..\Exercise2\Exercise2\ANN\kd_search.cpp ..\Exercise2\Exercise2\ANN\kd_split.cpp ..\Exercise2\Exercise2\ANN\kd_tree.cpp ..\Exercise2\Exercise2\ANN\kd_util.cpp ..\Exercise2\Exercise2\ANN\perf.cpp
+         ANN.cpp
+         bd_fix_rad_search.cpp
+         bd_pr_search.cpp
+         bd_search.cpp
+         bd_tree.cpp
+         brute.cpp
+         kd_dump.cpp
+         kd_fix_rad_search.cpp
+         kd_pr_search.cpp
+         kd_search.cpp
+         kd_split.cpp
+         kd_tree.cpp
+         kd_util.cpp
+         perf.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\RezaulAkram\Documents\Projects\cs599\Exercise2\Exercise2\Exercise2\lib\Release\ann.lib" /NOLOGO ann.dir\Release\ANN.obj
+         ann.dir\Release\bd_fix_rad_search.obj
+         ann.dir\Release\bd_pr_search.obj
+         ann.dir\Release\bd_search.obj
+         ann.dir\Release\bd_tree.obj
+         ann.dir\Release\brute.obj
+         ann.dir\Release\kd_dump.obj
+         ann.dir\Release\kd_fix_rad_search.obj
+         ann.dir\Release\kd_pr_search.obj
+         ann.dir\Release\kd_search.obj
+         ann.dir\Release\kd_split.obj
+         ann.dir\Release\kd_tree.obj
+         ann.dir\Release\kd_util.obj
+         ann.dir\Release\perf.obj
+         ann.vcxproj -> C:\Users\RezaulAkram\Documents\Projects\cs599\Exercise2\Exercise2\Exercise2\lib\Release\ann.lib
+       FinalizeBuildStatus:
+         Deleting file "ann.dir\Release\ann.unsuccessfulbuild".
+         Touching "ann.dir\Release\ann.lastbuildstate".
+     1>Done Building Project "C:\Users\RezaulAkram\Documents\Projects\cs599\Exercise2\project\ann.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:10.37

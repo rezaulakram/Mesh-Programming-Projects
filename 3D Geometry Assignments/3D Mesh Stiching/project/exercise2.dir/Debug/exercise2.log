@@ -1,0 +1,34 @@
+﻿Build started 2/19/2014 8:56:24 PM.
+     1>Project "C:\Users\RezaulAkram\Documents\Projects\cs599\Exercise2\project\exercise2.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "exercise2.dir\Debug\exercise2.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         All outputs are up-to-date.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\freeglut-2.8.1\freeglut-2.8.1\include" /I"C:\OpenMesh-2.4.1\src" /IC:\Users\RezaulAkram\Documents\Projects\cs599\Exercise2\Exercise2\Exercise2 /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _USE_MATH_DEFINES /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"exercise2.dir\Debug\\" /Fd"exercise2.dir\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\Exercise2\Exercise2\Registration.cc
+         Registration.cc
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\RezaulAkram\Documents\Projects\cs599\Exercise2\Exercise2\Exercise2\bin\Debug\exercise2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib glu32.lib opengl32.lib "C:\freeglut-2.8.1\freeglut-2.8.1\lib\x86\freeglut.lib" "C:\OpenMesh-2.4.1\lib\libOpenMeshCored.lib" "C:\OpenMesh-2.4.1\lib\libOpenMeshToolsd.lib" C:\Users\RezaulAkram\Documents\Projects\cs599\Exercise2\Exercise2\Exercise2\lib\Debug\ann.lib /MANIFEST /ManifestFile:"exercise2.dir\Debug\exercise2.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:/Users/RezaulAkram/Documents/Projects/cs599/Exercise2/Exercise2/Exercise2/bin/Debug/exercise2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/RezaulAkram/Documents/Projects/cs599/Exercise2/Exercise2/Exercise2/lib/Debug/exercise2.lib" /MACHINE:X86 exercise2.dir\Debug\exercise2.exe.embed.manifest.res
+         exercise2.dir\Debug\ClosestPoint.obj
+         exercise2.dir\Debug\GlutExaminer.obj
+         exercise2.dir\Debug\GlutViewer.obj
+         exercise2.dir\Debug\Registration.obj
+         exercise2.dir\Debug\registrationview.obj
+         exercise2.dir\Debug\RegistrationViewer.obj
+         exercise2.dir\Debug\Transformation.obj  /machine:X86 /debug 
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"exercise2.dir\Debug\exercise2.exe.embed.manifest" /manifest exercise2.dir\Debug\exercise2.exe.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         exercise2.vcxproj -> C:\Users\RezaulAkram\Documents\Projects\cs599\Exercise2\Exercise2\Exercise2\bin\Debug\exercise2.exe
+       FinalizeBuildStatus:
+         Deleting file "exercise2.dir\Debug\exercise2.unsuccessfulbuild".
+         Touching "exercise2.dir\Debug\exercise2.lastbuildstate".
+     1>Done Building Project "C:\Users\RezaulAkram\Documents\Projects\cs599\Exercise2\project\exercise2.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.97

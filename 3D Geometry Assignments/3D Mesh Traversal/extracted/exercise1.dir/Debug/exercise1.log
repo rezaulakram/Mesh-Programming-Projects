@@ -1,0 +1,32 @@
+﻿Build started 1/29/2014 10:29:23 PM.
+     1>Project "C:\Users\RezaulAkram\Documents\Projects\cs599\extracted\exercise1.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "exercise1.dir\Debug\exercise1.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         All outputs are up-to-date.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\freeglut-2.8.1\freeglut-2.8.1\include" /I"C:\OpenMesh-2.4.1\src" /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _USE_MATH_DEFINES /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"exercise1.dir\Debug\\" /Fd"exercise1.dir\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\exercise1\ValenceViewer.cc
+         ValenceViewer.cc
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\RezaulAkram\Documents\Projects\cs599\exercise1\bin\Debug\exercise1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib glu32.lib opengl32.lib "C:\freeglut-2.8.1\freeglut-2.8.1\lib\x86\freeglut.lib" "C:\OpenMesh-2.4.1\lib\libOpenMeshCored.lib" "C:\OpenMesh-2.4.1\lib\libOpenMeshToolsd.lib" /MANIFEST /ManifestFile:"exercise1.dir\Debug\exercise1.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:/Users/RezaulAkram/Documents/Projects/cs599/exercise1/bin/Debug/exercise1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/RezaulAkram/Documents/Projects/cs599/exercise1/lib/Debug/exercise1.lib" /MACHINE:X86 exercise1.dir\Debug\exercise1.exe.embed.manifest.res
+         exercise1.dir\Debug\GlutExaminer.obj
+         exercise1.dir\Debug\GlutViewer.obj
+         exercise1.dir\Debug\MeshViewer.obj
+         exercise1.dir\Debug\valenceview.obj
+         exercise1.dir\Debug\ValenceViewer.obj  /machine:X86 /debug 
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"exercise1.dir\Debug\exercise1.exe.embed.manifest" /manifest exercise1.dir\Debug\exercise1.exe.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         exercise1.vcxproj -> C:\Users\RezaulAkram\Documents\Projects\cs599\exercise1\bin\Debug\exercise1.exe
+       FinalizeBuildStatus:
+         Deleting file "exercise1.dir\Debug\exercise1.unsuccessfulbuild".
+         Touching "exercise1.dir\Debug\exercise1.lastbuildstate".
+     1>Done Building Project "C:\Users\RezaulAkram\Documents\Projects\cs599\extracted\exercise1.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.62

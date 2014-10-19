@@ -1,0 +1,28 @@
+﻿Build started 4/9/2014 11:58:23 PM.
+     1>Project "C:\Users\RezaulAkram\Documents\Projects\cs599\Exercise6\exercise6\exercise-6\Project\remesh.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "remesh.dir\Release\remesh.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         All outputs are up-to-date.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\freeglut-2.8.1\freeglut-2.8.1\include" /I"C:\OpenMesh-2.4.1\src" /I"C:\Users\RezaulAkram\Documents\Projects\cs599\Exercise6\exercise6\exercise-6" /nologo /W3 /WX- /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _USE_MATH_DEFINES /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"remesh.dir\Release\\" /Fd"remesh.dir\Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\remesh.cc
+         remesh.cc
+     1>..\remesh.cc(179): warning C4101: 'hcol01' : unreferenced local variable
+     1>..\remesh.cc(179): warning C4101: 'hcol10' : unreferenced local variable
+     1>..\remesh.cc(586): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>..\remesh.cc(592): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>..\remesh.cc(614): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\remesh.cc(703): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\RezaulAkram\Documents\Projects\cs599\Exercise6\exercise6\exercise-6\bin\Release\remesh.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\OpenMesh-2.4.1\lib\libOpenMeshCore.lib" "C:\OpenMesh-2.4.1\lib\libOpenMeshTools.lib" /MANIFEST /ManifestFile:"remesh.dir\Release\remesh.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:/Users/RezaulAkram/Documents/Projects/cs599/Exercise6/exercise6/exercise-6/bin/Release/remesh.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/RezaulAkram/Documents/Projects/cs599/Exercise6/exercise6/exercise-6/lib/Release/remesh.lib" /MACHINE:X86 remesh.dir\Release\remesh.obj  /machine:X86 
+         remesh.vcxproj -> C:\Users\RezaulAkram\Documents\Projects\cs599\Exercise6\exercise6\exercise-6\bin\Release\remesh.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\RezaulAkram\Documents\Projects\cs599\Exercise6\exercise6\exercise-6\bin\Release\remesh.exe;#1" /manifest remesh.dir\Release\remesh.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "remesh.dir\Release\remesh.unsuccessfulbuild".
+         Touching "remesh.dir\Release\remesh.lastbuildstate".
+     1>Done Building Project "C:\Users\RezaulAkram\Documents\Projects\cs599\Exercise6\exercise6\exercise-6\Project\remesh.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.33
