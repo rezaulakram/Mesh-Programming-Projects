@@ -1,3 +1,0 @@
-C:/Users/RezaulAkram/Documents/Projects/cs599/extracted/CMakeFiles/ALL_BUILD.dir
-C:/Users/RezaulAkram/Documents/Projects/cs599/extracted/CMakeFiles/ZERO_CHECK.dir
-C:/Users/RezaulAkram/Documents/Projects/cs599/extracted/CMakeFiles/exercise1.dir

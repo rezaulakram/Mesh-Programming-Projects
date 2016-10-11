@@ -1,3 +1,0 @@
-C:/Users/RezaulAkram/Documents/Projects/cs599/Exercise4/Exercise4Project/CMakeFiles/ALL_BUILD.dir
-C:/Users/RezaulAkram/Documents/Projects/cs599/Exercise4/Exercise4Project/CMakeFiles/ZERO_CHECK.dir
-C:/Users/RezaulAkram/Documents/Projects/cs599/Exercise4/Exercise4Project/CMakeFiles/smooth.dir
