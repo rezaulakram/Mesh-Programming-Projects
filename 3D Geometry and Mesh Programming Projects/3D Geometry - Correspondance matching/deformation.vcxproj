@@ -1,0 +1,337 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{5FF08424-F306-4E73-AC17-D33E18158544}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>deformation</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\RezaulAkram\Documents\Visual Studio 2010\Projects\Deformation\Deformation\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">deformation.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">deformation</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\RezaulAkram\Documents\Visual Studio 2010\Projects\Deformation\Deformation\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">deformation.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">deformation</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\RezaulAkram\Documents\Visual Studio 2010\Projects\Deformation\Deformation\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">deformation.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">deformation</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\RezaulAkram\Documents\Visual Studio 2010\Projects\Deformation\Deformation\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">deformation.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">deformation</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Libraries\SUITEPARSE\SuiteSparse\AMD\Include;E:\Libraries\SUITEPARSE\SuiteSparse\UMFPACK\Include;C:\freeglut-2.8.1\freeglut-2.8.1\include;C:\OpenMesh-2.4.1\src;C:\Users\RezaulAkram\Documents\Visual Studio 2010\Projects\Deformation\Deformation;C:\Users\RezaulAkram\Documents\Visual Studio 2010\Projects\Deformation\Deformation\gmm;E:\Libraries\SUITEPARSE\SuiteSparse\CHOLMOD\Include;E:\Libraries\SUITEPARSE\SuiteSparse\SuiteSparse_config;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_USE_MATH_DEFINES;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_USE_MATH_DEFINES;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\freeglut-2.8.1\freeglut-2.8.1\include;C:\OpenMesh-2.4.1\src;C:\Users\RezaulAkram\Documents\Visual Studio 2010\Projects\Deformation\Deformation;C:\Users\RezaulAkram\Documents\Visual Studio 2010\Projects\Deformation\Deformation\gmm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\freeglut-2.8.1\freeglut-2.8.1\include;C:\OpenMesh-2.4.1\src;C:\Users\RezaulAkram\Documents\Visual Studio 2010\Projects\Deformation\Deformation;C:\Users\RezaulAkram\Documents\Visual Studio 2010\Projects\Deformation\Deformation\gmm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>metis.lib;suitesparse.lib;libblas.lib;liblapack.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;glu32.lib;opengl32.lib;C:\freeglut-2.8.1\freeglut-2.8.1\lib\x86\freeglut.lib;C:\OpenMesh-2.4.1\lib\libOpenMeshCored.lib;C:\OpenMesh-2.4.1\lib\libOpenMeshToolsd.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:\Libraries\SUITEPARSE\Project\lib\Release;E:\Libraries\SUITEPARSE\lapack_windows\x32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ImportLibrary>C:/Users/RezaulAkram/Documents/Visual Studio 2010/Projects/Deformation/Deformation/lib/Debug/deformation.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/RezaulAkram/Documents/Visual Studio 2010/Projects/Deformation/Deformation/bin/Debug/deformation.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Libraries\SUITEPARSE\SuiteSparse\AMD\Include;E:\Libraries\SUITEPARSE\SuiteSparse\UMFPACK\Include;C:\freeglut-2.8.1\freeglut-2.8.1\include;C:\OpenMesh-2.4.1\src;C:\Users\RezaulAkram\Documents\Visual Studio 2010\Projects\Deformation\Deformation;C:\Users\RezaulAkram\Documents\Visual Studio 2010\Projects\Deformation\Deformation\gmm;E:\Libraries\SUITEPARSE\SuiteSparse\CHOLMOD\Include;E:\Libraries\SUITEPARSE\SuiteSparse\SuiteSparse_config;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_USE_MATH_DEFINES;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_USE_MATH_DEFINES;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\freeglut-2.8.1\freeglut-2.8.1\include;C:\OpenMesh-2.4.1\src;C:\Users\RezaulAkram\Documents\Visual Studio 2010\Projects\Deformation\Deformation;C:\Users\RezaulAkram\Documents\Visual Studio 2010\Projects\Deformation\Deformation\gmm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\freeglut-2.8.1\freeglut-2.8.1\include;C:\OpenMesh-2.4.1\src;C:\Users\RezaulAkram\Documents\Visual Studio 2010\Projects\Deformation\Deformation;C:\Users\RezaulAkram\Documents\Visual Studio 2010\Projects\Deformation\Deformation\gmm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>metis.lib;suitesparse.lib;libblas.lib;liblapack.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;glu32.lib;opengl32.lib;C:\freeglut-2.8.1\freeglut-2.8.1\lib\x86\freeglut.lib;C:\OpenMesh-2.4.1\lib\libOpenMeshCore.lib;C:\OpenMesh-2.4.1\lib\libOpenMeshTools.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:\Libraries\SUITEPARSE\Project\lib\Release;E:\Libraries\SUITEPARSE\lapack_windows\x32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <ImportLibrary>C:/Users/RezaulAkram/Documents/Visual Studio 2010/Projects/Deformation/Deformation/lib/Release/deformation.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/RezaulAkram/Documents/Visual Studio 2010/Projects/Deformation/Deformation/bin/Release/deformation.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Libraries\SUITEPARSE\SuiteSparse\AMD\Include;E:\Libraries\SUITEPARSE\SuiteSparse\UMFPACK\Include;C:\freeglut-2.8.1\freeglut-2.8.1\include;C:\OpenMesh-2.4.1\src;C:\Users\RezaulAkram\Documents\Visual Studio 2010\Projects\Deformation\Deformation;C:\Users\RezaulAkram\Documents\Visual Studio 2010\Projects\Deformation\Deformation\gmm;E:\Libraries\SUITEPARSE\SuiteSparse\CHOLMOD\Include;E:\Libraries\SUITEPARSE\SuiteSparse\SuiteSparse_config;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_USE_MATH_DEFINES;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_USE_MATH_DEFINES;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\freeglut-2.8.1\freeglut-2.8.1\include;C:\OpenMesh-2.4.1\src;C:\Users\RezaulAkram\Documents\Visual Studio 2010\Projects\Deformation\Deformation;C:\Users\RezaulAkram\Documents\Visual Studio 2010\Projects\Deformation\Deformation\gmm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\freeglut-2.8.1\freeglut-2.8.1\include;C:\OpenMesh-2.4.1\src;C:\Users\RezaulAkram\Documents\Visual Studio 2010\Projects\Deformation\Deformation;C:\Users\RezaulAkram\Documents\Visual Studio 2010\Projects\Deformation\Deformation\gmm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>metis.lib;suitesparse.lib;libblas.lib;liblapack.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;glu32.lib;opengl32.lib;C:\freeglut-2.8.1\freeglut-2.8.1\lib\x86\freeglut.lib;C:\OpenMesh-2.4.1\lib\libOpenMeshCored.lib;C:\OpenMesh-2.4.1\lib\libOpenMeshToolsd.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:\Libraries\SUITEPARSE\Project\lib\Release;E:\Libraries\SUITEPARSE\lapack_windows\x32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <ImportLibrary>C:/Users/RezaulAkram/Documents/Visual Studio 2010/Projects/Deformation/Deformation/lib/MinSizeRel/deformation.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/RezaulAkram/Documents/Visual Studio 2010/Projects/Deformation/Deformation/bin/MinSizeRel/deformation.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Libraries\SUITEPARSE\SuiteSparse\AMD\Include;E:\Libraries\SUITEPARSE\SuiteSparse\UMFPACK\Include;C:\freeglut-2.8.1\freeglut-2.8.1\include;C:\OpenMesh-2.4.1\src;C:\Users\RezaulAkram\Documents\Visual Studio 2010\Projects\Deformation\Deformation;C:\Users\RezaulAkram\Documents\Visual Studio 2010\Projects\Deformation\Deformation\gmm;E:\Libraries\SUITEPARSE\SuiteSparse\CHOLMOD\Include;E:\Libraries\SUITEPARSE\SuiteSparse\SuiteSparse_config;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_USE_MATH_DEFINES;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_USE_MATH_DEFINES;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\freeglut-2.8.1\freeglut-2.8.1\include;C:\OpenMesh-2.4.1\src;C:\Users\RezaulAkram\Documents\Visual Studio 2010\Projects\Deformation\Deformation;C:\Users\RezaulAkram\Documents\Visual Studio 2010\Projects\Deformation\Deformation\gmm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\freeglut-2.8.1\freeglut-2.8.1\include;C:\OpenMesh-2.4.1\src;C:\Users\RezaulAkram\Documents\Visual Studio 2010\Projects\Deformation\Deformation;C:\Users\RezaulAkram\Documents\Visual Studio 2010\Projects\Deformation\Deformation\gmm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>metis.lib;suitesparse.lib;libblas.lib;liblapack.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;glu32.lib;opengl32.lib;C:\freeglut-2.8.1\freeglut-2.8.1\lib\x86\freeglut.lib;C:\OpenMesh-2.4.1\lib\libOpenMeshCored.lib;C:\OpenMesh-2.4.1\lib\libOpenMeshToolsd.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:\Libraries\SUITEPARSE\Project\lib\Release;E:\Libraries\SUITEPARSE\lapack_windows\x32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ImportLibrary>C:/Users/RezaulAkram/Documents/Visual Studio 2010/Projects/Deformation/Deformation/lib/RelWithDebInfo/deformation.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/RezaulAkram/Documents/Visual Studio 2010/Projects/Deformation/Deformation/bin/RelWithDebInfo/deformation.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/RezaulAkram/Documents/Visual Studio 2010/Projects/Deformation/Deformation/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake 2.8\bin\cmake.exe" "-HC:/Users/RezaulAkram/Documents/Visual Studio 2010/Projects/Deformation/Deformation" "-BC:/Users/RezaulAkram/Documents/Visual Studio 2010/Projects/Deformation/Deformation" --check-stamp-file "C:\Users\RezaulAkram\Documents\Visual Studio 2010\Projects\Deformation\Deformation\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/RezaulAkram/Documents/Visual Studio 2010/Projects/Deformation/Deformation/CMakeLists.txt;C:\Users\RezaulAkram\Documents\Visual Studio 2010\Projects\Deformation\Deformation\CMakeLists.txt;C:\Users\RezaulAkram\Documents\Visual Studio 2010\Projects\Deformation\Deformation\CMakeFiles\2.8.12.2\CMakeSystem.cmake;C:\Users\RezaulAkram\Documents\Visual Studio 2010\Projects\Deformation\Deformation\CMakeFiles\2.8.12.2\CMakeCCompiler.cmake;C:\Users\RezaulAkram\Documents\Visual Studio 2010\Projects\Deformation\Deformation\CMakeFiles\2.8.12.2\CMakeCXXCompiler.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;C:\Users\RezaulAkram\Documents\Visual Studio 2010\Projects\Deformation\Deformation\CMakeFiles\2.8.12.2\CMakeRCCompiler.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\FindGLUT.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\FindOpenGL.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;C:\Users\RezaulAkram\Documents\Visual Studio 2010\Projects\Deformation\Deformation\cmake\FindOpenMesh.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;C:\Users\RezaulAkram\Documents\Visual Studio 2010\Projects\Deformation\Deformation\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\RezaulAkram\Documents\Visual Studio 2010\Projects\Deformation\Deformation\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/RezaulAkram/Documents/Visual Studio 2010/Projects/Deformation/Deformation/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake 2.8\bin\cmake.exe" "-HC:/Users/RezaulAkram/Documents/Visual Studio 2010/Projects/Deformation/Deformation" "-BC:/Users/RezaulAkram/Documents/Visual Studio 2010/Projects/Deformation/Deformation" --check-stamp-file "C:\Users\RezaulAkram\Documents\Visual Studio 2010\Projects\Deformation\Deformation\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/RezaulAkram/Documents/Visual Studio 2010/Projects/Deformation/Deformation/CMakeLists.txt;C:\Users\RezaulAkram\Documents\Visual Studio 2010\Projects\Deformation\Deformation\CMakeLists.txt;C:\Users\RezaulAkram\Documents\Visual Studio 2010\Projects\Deformation\Deformation\CMakeFiles\2.8.12.2\CMakeSystem.cmake;C:\Users\RezaulAkram\Documents\Visual Studio 2010\Projects\Deformation\Deformation\CMakeFiles\2.8.12.2\CMakeCCompiler.cmake;C:\Users\RezaulAkram\Documents\Visual Studio 2010\Projects\Deformation\Deformation\CMakeFiles\2.8.12.2\CMakeCXXCompiler.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;C:\Users\RezaulAkram\Documents\Visual Studio 2010\Projects\Deformation\Deformation\CMakeFiles\2.8.12.2\CMakeRCCompiler.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\FindGLUT.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\FindOpenGL.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;C:\Users\RezaulAkram\Documents\Visual Studio 2010\Projects\Deformation\Deformation\cmake\FindOpenMesh.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;C:\Users\RezaulAkram\Documents\Visual Studio 2010\Projects\Deformation\Deformation\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\RezaulAkram\Documents\Visual Studio 2010\Projects\Deformation\Deformation\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/RezaulAkram/Documents/Visual Studio 2010/Projects/Deformation/Deformation/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake 2.8\bin\cmake.exe" "-HC:/Users/RezaulAkram/Documents/Visual Studio 2010/Projects/Deformation/Deformation" "-BC:/Users/RezaulAkram/Documents/Visual Studio 2010/Projects/Deformation/Deformation" --check-stamp-file "C:\Users\RezaulAkram\Documents\Visual Studio 2010\Projects\Deformation\Deformation\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/RezaulAkram/Documents/Visual Studio 2010/Projects/Deformation/Deformation/CMakeLists.txt;C:\Users\RezaulAkram\Documents\Visual Studio 2010\Projects\Deformation\Deformation\CMakeLists.txt;C:\Users\RezaulAkram\Documents\Visual Studio 2010\Projects\Deformation\Deformation\CMakeFiles\2.8.12.2\CMakeSystem.cmake;C:\Users\RezaulAkram\Documents\Visual Studio 2010\Projects\Deformation\Deformation\CMakeFiles\2.8.12.2\CMakeCCompiler.cmake;C:\Users\RezaulAkram\Documents\Visual Studio 2010\Projects\Deformation\Deformation\CMakeFiles\2.8.12.2\CMakeCXXCompiler.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;C:\Users\RezaulAkram\Documents\Visual Studio 2010\Projects\Deformation\Deformation\CMakeFiles\2.8.12.2\CMakeRCCompiler.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\FindGLUT.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\FindOpenGL.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;C:\Users\RezaulAkram\Documents\Visual Studio 2010\Projects\Deformation\Deformation\cmake\FindOpenMesh.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;C:\Users\RezaulAkram\Documents\Visual Studio 2010\Projects\Deformation\Deformation\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\RezaulAkram\Documents\Visual Studio 2010\Projects\Deformation\Deformation\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/RezaulAkram/Documents/Visual Studio 2010/Projects/Deformation/Deformation/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake 2.8\bin\cmake.exe" "-HC:/Users/RezaulAkram/Documents/Visual Studio 2010/Projects/Deformation/Deformation" "-BC:/Users/RezaulAkram/Documents/Visual Studio 2010/Projects/Deformation/Deformation" --check-stamp-file "C:\Users\RezaulAkram\Documents\Visual Studio 2010\Projects\Deformation\Deformation\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/RezaulAkram/Documents/Visual Studio 2010/Projects/Deformation/Deformation/CMakeLists.txt;C:\Users\RezaulAkram\Documents\Visual Studio 2010\Projects\Deformation\Deformation\CMakeLists.txt;C:\Users\RezaulAkram\Documents\Visual Studio 2010\Projects\Deformation\Deformation\CMakeFiles\2.8.12.2\CMakeSystem.cmake;C:\Users\RezaulAkram\Documents\Visual Studio 2010\Projects\Deformation\Deformation\CMakeFiles\2.8.12.2\CMakeCCompiler.cmake;C:\Users\RezaulAkram\Documents\Visual Studio 2010\Projects\Deformation\Deformation\CMakeFiles\2.8.12.2\CMakeCXXCompiler.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;C:\Users\RezaulAkram\Documents\Visual Studio 2010\Projects\Deformation\Deformation\CMakeFiles\2.8.12.2\CMakeRCCompiler.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\FindGLUT.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\FindOpenGL.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;C:\Users\RezaulAkram\Documents\Visual Studio 2010\Projects\Deformation\Deformation\cmake\FindOpenMesh.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;C:\Users\RezaulAkram\Documents\Visual Studio 2010\Projects\Deformation\Deformation\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\RezaulAkram\Documents\Visual Studio 2010\Projects\Deformation\Deformation\CMakeFiles\generate.stamp</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="correspondance.hh" />
+    <ClInclude Include="DeformationViewer.hh" />
+    <ClInclude Include="gl.hh" />
+    <ClInclude Include="GlutExaminer.hh" />
+    <ClInclude Include="GlutViewer.hh" />
+    <ClInclude Include="Matrix.hh" />
+    <ClInclude Include="MeshViewer.hh" />
+    <ClCompile Include="correspondance.cpp" />
+    <ClCompile Include="deform.cc" />
+    <ClCompile Include="deformationTransfer.cpp" />
+    <ClCompile Include="DeformationViewer.cc" />
+    <ClCompile Include="GlutExaminer.cc" />
+    <ClCompile Include="GlutViewer.cc" />
+    <ClCompile Include="Matrix.cpp" />
+    <ClCompile Include="MeshViewer.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Users/RezaulAkram/Documents/Visual Studio 2010/Projects/Deformation/Deformation/ZERO_CHECK.vcxproj">
+      <Project>50ECC989-3044-44A8-9C01-5179154DFDDB</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="deformationTransfer.hh" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
