@@ -2,6 +2,14 @@ Following folder contains 3d geometry and mesh manipulation projects. In other w
 
 3D Mesh Transformation: Transform one mesh to another. This is used to generate animations from one mesh to other.
 
+Input
+
+![alt tag](https://github.com/rezaul7869/Projects/blob/master/3D%20Geometry%20and%20Mesh%20Programming%20Projects/3D%20Geometry%20-%20Correspondance%20matching/Outputs/original.png)
+
+Output - Algorithm I
+
+![alt tag](https://github.com/rezaul7869/Projects/blob/master/3D%20Geometry%20and%20Mesh%20Programming%20Projects/3D%20Geometry%20-%20Correspondance%20matching/Outputs/transformed.png)
+
 
 
 3D Mesh Reconstruction : Here we have a point cloud and we apply two different algorithm to get a structure out of it.
