@@ -72,7 +72,7 @@ Mesh Travesal: Color a mesh like a heat zone. More number of connection to a ver
 Input
 
 ![alt tag]
-(https://github.com/rezaul7869/Projects/blob/master/3D%20Geometry%20and%20Mesh%20Programming%20Projects/3D%20Mesh%20Traversal/output/result.png)
+(https://github.com/rezaul7869/Projects/blob/master/3D%20Geometry%20and%20Mesh%20Programming%20Projects/3D%20Mesh%20Traversal/output/original.png)
 
 Output
 
